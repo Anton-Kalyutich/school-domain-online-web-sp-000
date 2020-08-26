@@ -4,9 +4,7 @@ class School
   
   def initialize(school_name)
     @school_name = school_name
-    def roster
-      @roster
-    end
+    @roster = {}
   end
   
   def add_atudent(student_name, grade)

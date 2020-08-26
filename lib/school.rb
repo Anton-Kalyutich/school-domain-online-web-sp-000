@@ -8,5 +8,6 @@ class School
     {}
   end
   
-  
+  def add_atudent
+    
 end

@@ -18,6 +18,6 @@ class School
   end
   
   def sort
-    sorted_roster  = @roster.each_value {|array| array.sort}
+    sorted_roster  = @roster.each_value.map {|array| array.sort}
   end
 end

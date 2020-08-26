@@ -19,6 +19,7 @@ class School
   
   def sort
     sorted_roster = @roster
-    sorted_roster.each_value {|array| array.sort}
+    sorted_roster.each_value {|array| array.sort!}
+    sorted_roster
   end
 end

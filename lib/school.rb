@@ -18,8 +18,6 @@ class School
   end
   
   def sort
-    @roster.each_value |array|
-      array.sort!
-    end
-    
+    @roster.each_value {|array| array.sort!}
+  end
 end

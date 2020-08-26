@@ -8,6 +8,6 @@ class School
     {}
   end
   
-  def add_atudent
+  def add_atudent(student_name, grade)
     
 end

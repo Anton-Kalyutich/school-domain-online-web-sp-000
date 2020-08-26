@@ -12,5 +12,7 @@ class School
     @roster[grade] = [] if !@roster.keys.include?(grade)
     @roster[grade] << student_name
   end
+  
+  def grade(num)
     
 end

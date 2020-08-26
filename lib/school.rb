@@ -10,5 +10,6 @@ class School
   
   
   def add_atudent(student_name, grade)
+  end
     
 end
